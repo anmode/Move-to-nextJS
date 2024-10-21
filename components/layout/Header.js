@@ -10,6 +10,13 @@ import { useAuth } from "../../context/AuthContext";
 import { ButtonLink } from "../UI";
 import clsx from "clsx";
 import { useTheme } from "../../hook/use-theme";
+import { ImUsers } from "react-icons/im";
+import { GiTeacher } from "react-icons/gi";
+import { PiStepsFill } from "react-icons/pi";
+import { HiHome } from "react-icons/hi2";
+import { AiFillContacts } from "react-icons/ai";
+import { FaSignInAlt } from "react-icons/fa";
+import { LiaBlogSolid } from "react-icons/lia";
 
 function Header() {
   const {
@@ -101,23 +108,43 @@ function Header() {
         {/* For Desktop Navigation*/}
         <div className="sm:tw-flex tw-hidden">
           <div className="tw-flex tw-gap-3 tw-justify-between tw-items-center md:tw-gap-5 tw-cursor-pointer">
-            <Link href="/" className="hover:tw-text-primary-100">
-              Home
+            <Link
+              href="/"
+              className=" tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <HiHome className="tw-mr-2" /> Home
             </Link>
-            <Link href="/mentor/list" className="hover:tw-text-primary-100">
+            <Link
+              href="/mentor/list"
+              className="tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <GiTeacher className="tw-mr-2" />
               Mentor
             </Link>
-            <Link href="/blogs" className="hover:tw-text-primary-100">
-              Blogs
+            <Link
+              href="/blogs"
+              className="tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <LiaBlogSolid className="tw-mr-2" /> Blogs
             </Link>
-            <Link href="/community" className="hover:tw-text-primary-100">
+            <Link
+              href="/community"
+              className="tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <ImUsers />
               Community
             </Link>
-            <Link href="/career" className="hover:tw-text-primary-100">
-              Career
+            <Link
+              href="/career"
+              className="tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <PiStepsFill className="tw-mr-2" /> Career
             </Link>
-            <Link href="/contact" className="hover:tw-text-primary-100">
-              Contact
+            <Link
+              href="/contact"
+              className="tw-flex tw-items-center hover:tw-text-primary-100"
+            >
+              <AiFillContacts className="tw-mr-2" /> Contact
             </Link>
             {/* show profile card if user is logged in else show signin link */}
             {isUserLoggedIn || isMentorLoggedIn ? (
@@ -203,6 +230,7 @@ function Header() {
                     href="/auth/login?entityType=user"
                     className="tw-text-xl tw-p-2 tw-font-inter tw-text-base-400  hover:tw-text-base-500 tw-font-medium"
                   >
+                    <FaSignInAlt />
                     Sign In
                   </Link>
                 )}

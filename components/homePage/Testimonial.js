@@ -12,7 +12,7 @@ function Testimonial({
 }) {
   return (
     <IconCard
-      className="tw-w-auto tw-h-full tw-flex tw-flex-col"
+      className="tw-w-auto tw-min-h-full tw-h-[320px] max-[599px]:tw-h-[320px] max-[863px]:tw-h-[480px] tw-flex tw-flex-col"
       Icon={FaQuoteLeft}
       heading={testimonialHeadline}
       body={testimonialDescription}

@@ -83,7 +83,7 @@ const SupportChat = () => {
     <>
       <div
         ref={refChat}
-        className="sm:tw-mr-8 tw-flex tw-z-[1000] tw-text-center tw-fixed tw-bottom-0 tw-right-0 sm:tw-mb-32 tw-cursor-pointer"
+        className="sm:tw-mr-8 tw-flex tw-z-[1000] tw-text-center tw-fixed tw-bottom-0 tw-right-0 sm:tw-mb-36 tw-cursor-pointer"
       >
         {isOpen ? (
           <>
@@ -271,14 +271,14 @@ const SupportChat = () => {
                 </div>
               </div>
               <button
-                className="tw-felx  tw-bg-primary-100 tw-items-center tw-justify-center tw-w-10 tw-h-10  tw-text-white tw-rounded-full tw-focus:outline-none"
+                className="tw-flex tw-fixed tw-bottom-24 tw-right-8 tw-bg-primary-100 tw-items-center tw-justify-center tw-w-10 tw-h-10  tw-text-white tw-rounded-full tw-focus:outline-none"
                 onClick={() => setIsOpen(false)}
               >
                 <span className="tw-text-xl">✖</span>
               </button>
             </div>
             {/* for Mobile devices */}
-            <div className="sm:tw-hidden tw-max-w-[350px] tw-max-h-[480px] tw-mb-24 mob_mode tw-mx-4 tw-flex tw-flex-col tw-items-end ">
+            <div className="sm:tw-hidden tw-max-w-[350px] tw-max-h-[480px] tw-mb-36 mob_mode tw-mx-4 tw-flex tw-flex-col tw-items-end ">
               <div className="sm:tw-hidden tw-mb-1.5 tw-rounded-md tw-flex tw-flex-col tw-bg-cyan-200 tw-overflow-y-scroll tw-overflow-x-hidden tw-justify-between tw-cursor-auto">
                 {/* header */}
                 <div className="tw-py-1 tw-flex tw-text-center tw-justify-between tw-w-full tw-items-center tw-top-0 tw-sticky tw-bg-cyan-200 tw-z-40">
@@ -462,7 +462,7 @@ const SupportChat = () => {
               </div>
 
               <button
-                className="tw-flex tw-bg-primary-100 tw-p-1 tw-items-center tw-justify-center tw-w-10 tw-h-10  tw-text-white tw-rounded-full tw-focus:outline-none"
+                className="tw-flex tw-fixed tw-bottom-24 tw-right-8 tw-bg-primary-100 tw-p-1 tw-items-center tw-justify-center tw-w-10 tw-h-10  tw-text-white tw-rounded-full tw-focus:outline-none"
                 onClick={() => setIsOpen(false)}
               >
                 <span className="tw-text-lg">✖</span>
@@ -474,11 +474,11 @@ const SupportChat = () => {
             {/* For desktop devices */}
             <button
               onClick={() => setIsOpen(true)}
-              className="tw-hidden sm:tw-flex"
+              className="tw-hidden sm:tw-flex tw-fixed tw-bottom-24 tw-right-8"
             >
               <Image
-                className={`tw-rounded-full tw-bg-[#845ec2] hover:tw-bg-[#845ec0] tw-p-2 tw-shadow-lg tw-opacity-80 hover:tw-opacity-100 ${
-                  isOpen ? "tw-opacity-100" : "tw-opacity-80"
+                className={`tw-rounded-full tw-bg-[#845ec2] tw-p-2 tw-z-50 tw-shadow-lg hover:tw-bg-[#533388] ${
+                  !isOpen ? "tw-opacity-100" : "tw-opacity-80"
                 }`}
                 title="support"
                 src={support}
@@ -491,11 +491,11 @@ const SupportChat = () => {
             {/* For mobile devices */}
             <button
               onClick={() => setIsOpen(true)}
-              className="tw-flex sm:tw-hidden tw-relative tw-bottom-32 tw-right-5"
+              className="tw-flex sm:tw-hidden tw-fixed tw-bottom-24 tw-right-8"
             >
               <Image
-                className={`tw-rounded-full tw-bg-[#845ec2] hover:tw-bg-[#845ec0] tw-p-2 tw-shadow-lg tw-opacity-80 hover:tw-opacity-100 ${
-                  isOpen ? "tw-opacity-100" : "tw-opacity-80"
+                className={`tw-rounded-full tw-bg-[#845ec2] tw-z-50 tw-p-2 tw-shadow-lg hover:tw-bg-[#533388]  ${
+                  !isOpen ? "tw-opacity-100" : "tw-opacity-80"
                 }`}
                 title="support"
                 src={support}

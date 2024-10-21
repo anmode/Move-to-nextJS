@@ -108,7 +108,11 @@ gi.owl-carousel .owl-stage {
   mask-image: url("../public/Hexagon.svg");
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-100);
+  border-radius: 50px;
 }
 
 a {
