@@ -219,11 +219,19 @@ If you'd like to contribute to Grabtern Frontend:-
 
 ---
 
-## ✨ Thank You for Your Contribution!
+# Contributors 🙋🏽
 
-<a href="https://github.com/anmode/grabtern-frontend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=anmode/grabtern-frontend" />
-</a>
+<p align="center">
+      <a href="https://github.com/anmode/grabtern-frontend/graphs/contributors">
+        <img src="https://api.vaunt.dev/v1/github/entities/anmode/repositories/grabtern-frontend/contributors?format=svg&limit=54" width="700" height="250" />
+      </a>
+</p>
+
+<br>
+  
+## Thank you for contributing 💗 
+We truly appreciate your time and effort to help improve our project. Happy coding! 🚀
+
 
 ---
 
