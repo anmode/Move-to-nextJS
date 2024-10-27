@@ -235,7 +235,7 @@ We truly appreciate your time and effort to help improve our project. Happy codi
 
 ---
 
-## License
+# License 📜
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 [MIT](https://choosealicense.com/licenses/mit/)
