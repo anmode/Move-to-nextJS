@@ -6,17 +6,17 @@ This is the frontend repository for Grabtern, a web application built with Next.
  <p>
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/anmode/grabtern-frontend?style=flat&logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/anmode/grabtern-frontend?style=flat&logo=github)
-![GitHub contributors](https://img.shields.io/github/contributors/anmode/grabtern-frontend)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/anmode/grabtern-frontend/issues)
+[![GitHub forks](https://img.shields.io/github/forks/anmode/grabtern-frontend?style=flat&logo=github)](https://github.com/anmode/grabtern-frontend/forks)
+[![GitHub Repo stars](https://img.shields.io/github/stars/anmode/grabtern-frontend?style=flat&logo=github)](https://github.com/anmode/grabtern-frontend/stargazers)
+[![GitHub contributors](https://img.shields.io/github/contributors/anmode/grabtern-frontend)](https://github.com/anmode/grabtern-frontend/graphs/contributors)
 ![GitHub last commit](https://img.shields.io/github/last-commit/anmode/grabtern-frontend)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmode/grabtern-frontend)
-[![License](https://img.shields.io/badge/License-MIT-green)](#license)
-![GitHub issues](https://img.shields.io/github/issues/anmode/grabtern-frontend)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/anmode/grabtern-frontend)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/anmode/grabtern-frontend)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/anmode/grabtern-frontend)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/anmode/grabtern-frontend/blob/develop/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/anmode/grabtern-frontend)](https://github.com/anmode/grabtern-frontend/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/anmode/grabtern-frontend)](https://github.com/anmode/grabtern-frontend/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/anmode/grabtern-frontend)](https://github.com/anmode/grabtern-frontend/pulls)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/anmode/grabtern-frontend)](https://github.com/anmode/grabtern-frontend/pulls?q=is%3Apr+is%3Aclosed)
 
 </p>
  </div>
@@ -192,7 +192,7 @@ If you'd like to contribute to Grabtern Frontend:-
 - If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/anmode/grabtern-frontend/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
 - Please make sure you check your spelling and grammar.
 - Create individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com//anmode/grabtern-frontend/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+- Please also read through the [Code Of Conduct](https://github.com/anmode/grabtern-frontend/blob/develop/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ---
 
