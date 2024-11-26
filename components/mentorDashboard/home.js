@@ -165,24 +165,35 @@ const Home = ({
             }`}
           >
             {mentor ? (
-              <p
-                className="tw-flex tw-justify-center tw-gap-2 tw-bg-primary-100 hover:tw-bg-primary-200 tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out tw-p-2 tw-rounded-md tw-items-center"
-                onClick={handleLogout}
-                id="mentorLogout"
-              >
-                <h2 className="tw-font-semibold tw-text-white">Log out</h2>
-                <Image
-                  src={
-                    !mentor?.image
-                      ? "/assets/img/icon/no-profile-picture.webp"
-                      : mentor.image
-                  }
-                  alt="Picture of the mentor"
-                  width={30}
-                  height={30}
-                  className="tw-rounded-full"
-                />
-              </p>
+              /* view profile  */
+              <>
+                <button className="tw-flex tw-justify-center tw-gap-2 tw-bg-primary-100 hover:tw-bg-primary-200 tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out tw-p-2 tw-rounded-md tw-items-center">
+                  <a
+                    href="/dashboard/mentor?tab=view-profile"
+                    className="tw-font-semibold tw-text-white"
+                  >
+                    View profile
+                  </a>
+                </button>
+                <p
+                  className="tw-flex tw-justify-center tw-gap-2 tw-bg-primary-100 hover:tw-bg-primary-200 tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out tw-p-2 tw-rounded-md tw-items-center"
+                  onClick={handleLogout}
+                  id="mentorLogout"
+                >
+                  <h2 className="tw-font-semibold tw-text-white">Log out</h2>
+                  <Image
+                    src={
+                      !mentor?.image
+                        ? "/assets/img/icon/no-profile-picture.webp"
+                        : mentor.image
+                    }
+                    alt="Picture of the mentor"
+                    width={30}
+                    height={30}
+                    className="tw-rounded-full"
+                  />
+                </p>
+              </>
             ) : (
               <p
                 className="tw-flex tw-justify-center tw-gap-2 tw-bg-primary-100 hover:tw-bg-primary-200 tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out tw-p-2 tw-rounded-md tw-items-center"

@@ -8,6 +8,7 @@ import Queries from "../../components/mentorDashboard/queries";
 import Home from "../../components/mentorDashboard/home";
 import Bookings from "../../components/mentorDashboard/Bookings";
 import Payments from "../../components/mentorDashboard/Payment";
+import ViewProfile from "../../components/mentorDashboard/ViewProfile";
 import ComingSoon from "../../components/basic/ComingSoon";
 import { useAuth } from "../../context/AuthContext";
 import { useRouter } from "next/router";
@@ -131,6 +132,14 @@ function MentorDashboard() {
           {component === "profile" && (
             <Profile
               setMentor={setMentor}
+              isSidebarOpen={isSidebarOpen}
+              setLoadingState={setLoadingState}
+              setErrorState={setErrorState}
+            />
+          )}
+
+          {component === "view-profile" && (
+            <ViewProfile
               isSidebarOpen={isSidebarOpen}
               setLoadingState={setLoadingState}
               setErrorState={setErrorState}
