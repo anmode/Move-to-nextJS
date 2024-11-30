@@ -5,6 +5,7 @@ import { BsTrash3Fill } from "react-icons/bs";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "../UI/Loader";
+import Button from "../UI/Button/Button";
 
 const Calender = ({ setLoadingState, setErrorState }) => {
   const [showDefault, setShowDefault] = useState(false);
@@ -15,6 +16,8 @@ const Calender = ({ setLoadingState, setErrorState }) => {
   const [checkedDays, setCheckedDays] = useState([]);
   const [key, setKey] = useState(0);
   const [loader, setLoader] = useState(false);
+  const [scheduleBtnVariant, setScheduleBtnVariant] = useState("secondary");
+  const [calendarBtnVariant, setCalendarBtnVariant] = useState("Primary");
 
   const weekdays = [
     "monday",
@@ -168,10 +171,14 @@ const Calender = ({ setLoadingState, setErrorState }) => {
   const handleCalender = () => {
     showSchedule(false);
     showCalender(true);
+    setCalendarBtnVariant("Primary");
+    setScheduleBtnVariant("secondary");
   };
   const handleSchedule = () => {
     showSchedule(true);
     showCalender(false);
+    setScheduleBtnVariant("Primary");
+    setCalendarBtnVariant("secondary");
   };
 
   // create new schedule
@@ -326,18 +333,19 @@ const Calender = ({ setLoadingState, setErrorState }) => {
     >
       <div className="tw-font-semibold tw-text-4xl tw-pb-6">Availability</div>
       <div className="tw-flex tw-gap-6">
-        <button
+        <Button
           onClick={handleCalender}
-          className="tw-bg-primary-100 hover:tw-bg-primary-200 tw-ease-in-out tw-duration-200 tw-transition-all tw-font-semibold tw-text-white tw-px-5 tw-py-2 tw-text-center hover:tw-font-semibold tw-rounded-md"
-        >
-          Calendar
-        </button>
-        <button
+          className=""
+          variant={calendarBtnVariant}
+          text="Calendar"
+        />
+
+        <Button
           onClick={handleSchedule}
-          className="tw-bg-primary-100 hover:tw-bg-primary-200 tw-ease-in-out tw-duration-200 tw-transition-all tw-font-semibold tw-text-white tw-px-5 tw-py-2 tw-text-center hover:tw-font-semibold tw-rounded-md"
-        >
-          Schedule
-        </button>
+          className=""
+          variant={scheduleBtnVariant}
+          text="Schedule"
+        />
       </div>
       <hr className="tw-h-px tw-my-5 tw-bg-gray-300 tw-border-0 tw-flex tw-justify-center tw-items-center tw-dark:bg-gray-700 tw-flex-wrap" />
       <div className="tw-flex tw-flex-col tw-flex-wrap tw-pt-6 max-md:tw-w-full">
