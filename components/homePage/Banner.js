@@ -20,7 +20,7 @@ function Banner({ isMentorLoggedIn }) {
                   mentoring and enhance your chances of landing your ideal
                   intern.
                 </p>
-                <div className="tw-w-full tw-flex tw-items-center tw-justify-center lg:tw-justify-start tw-gap-2">
+                <div className="tw-w-full tw-flex tw-items-center tw-justify-center lg:tw-justify-start tw-gap-2 tw-pt-6">
                   {loader == 1 ? (
                     <div className="tw-ml-16">
                       <Loader width="25px" />
