@@ -148,6 +148,7 @@
   color: #ff6fa8b0 !important;
   transition: color 0.3s ease-in-out;
   box-shadow: 0 0 5px rgba(134, 158, 255, 0.542);
+  
 }
 
 .boxedbtn:hover span {
@@ -280,8 +281,9 @@
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    padding: 0%;
+    padding: 5px;
     padding-left: 20px;
+    width:1
   }
 
   .media_head h3 {
@@ -304,4 +306,7 @@
     color: var(--base-300);
     padding-right: 10px;
   }
+}
+.sendbtn{
+  align:center !important;
 }

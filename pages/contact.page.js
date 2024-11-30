@@ -322,15 +322,17 @@ function Contact() {
                         {
                           //(errors.subject!=='')?showToast(errors.subject):errors.subject=''
                         }
-                        <div>
+                        <div class="sendbtn">
                           <button
                             type="button"
-                            class="md:tw-w-auto tw-h-16 tw-text-white tw-bg-[#845ec2] tw-border-0 tw-py-2 tw-px-6 focus:tw-outline-none hover:tw-bg-[#6b21a8] tw-rounded-lg tw-font-semibold"
+                            class="md:tw-w-auto px-10 tw-h-16 tw-text-white tw-bg-[#845ec2] tw-border-0 tw-py-2 tw-px-6 focus:tw-outline-none hover:tw-bg-[#6b21a8] tw-rounded-lg tw-font-semibold"
                             onClick={sendEmail}
                             style={{
                               padding: "5px 15px",
-                              width: "100px",
-                              marginLeft: "17px",
+                              width: "150px",
+                              height: "50px",
+                              marginLeft: "33vh",
+                              align: "center",
                             }}
                             onMouseEnter={(e) =>
                               (e.target.style.color = "whitesmoke")

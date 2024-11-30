@@ -25,7 +25,8 @@ function scrap() {
           </div>
           <div className="maincontent" style={{ display: "inline-block" }}>
             {" "}
-            We are Grabtern, doing business as Grabtern (
+            
+            <p>We are Grabtern, doing business as Grabtern (
             <b className="tw-text-[#845ec2]">"Company," "we," "us," "our"</b>),
             a company registered in India at Kishanpur tirah, Aligarh, Aligarh,
             Uttar Pradesh 202002. We operate the website
@@ -34,7 +35,9 @@ function scrap() {
             related products and services that refer or link to these legal
             terms (the "<b className="tw-text-[#845ec2]">Legal Terms</b>")
             (collectively, the "<b className="tw-text-[#845ec2]">Services</b>").
-            In our platform, we connect former Mentors to student seeking for
+            </p>
+
+            <p>In our platform, we connect former Mentors to student seeking for
             mentorship and mentor charge for providing mentorship and we take
             11% of that. Alright, to clarify, there is no fixed price for the
             bookSession. Each mentor can set the price as per their own wish.
@@ -46,9 +49,9 @@ function scrap() {
             behalf of an entity ("<b className="tw-text-[#845ec2]">you</b>"),
             and Grabtern, concerning your access to and use of the Services. You
             agree that by accessing the Services, you have read, understood, and
-            agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE
-            WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED
-            FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY. We
+            agreed to be bound by all of these Legal Terms.</p> 
+            <b>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED
+            FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</b> We
             will provide you with prior notice of any scheduled changes to the
             Services you are using. The modified Legal Terms will become
             effective upon posting or notifying you by
@@ -70,7 +73,7 @@ function scrap() {
             <div className="tnc" id="toc">
               <h1>TABLE OF CONTENTS</h1>
             </div>
-            <div style={{ paddingRight: 10, paddingTop: 10 }}>
+            <div className='px-4' style={{ paddingRight: 10, paddingTop: 10, paddingLeft: 100 }}>
               <div>
                 <a href="#1">1. OUR SERVICES</a>
               </div>
@@ -160,6 +163,7 @@ function scrap() {
           </div>
           <div className="terms-and-cond-sub">
             <div className="tnc-sub-head">2. INTELLECTUAL PROPERTY RIGHTS</div>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               Our intellectual property
             </strong>
@@ -175,6 +179,7 @@ function scrap() {
             United States and around the world. The Content and Marks are
             provided in or through the Services "AS IS" for your personal,
             non-commercial use or internal business purpose only.<br></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               Your use of our Services
             </strong>
@@ -204,6 +209,7 @@ function scrap() {
             of our Legal Terms and your right to use our Services will terminate
             immediately.
             <br></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               Your submissions and contributions
             </strong>
@@ -234,6 +240,7 @@ function scrap() {
             Contribution. You understand that Contributions may be viewable by
             other users of the Services.
             <br></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               When you post Contributions, you grant us a license (including use
               of your name, trademarks, and logos):{" "}
@@ -254,6 +261,7 @@ function scrap() {
             the trademarks, service marks, trade names, logos, and personal and
             commercial images you provide.
             <br></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               You are responsible for what you post or upload:{" "}
             </strong>
@@ -280,6 +288,7 @@ function scrap() {
             your breach of (a) this section, (b) any third party’s intellectual
             property rights, or (c) applicable law.
             <br id="3"></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               We may remove or edit your Content:{" "}
             </strong>
@@ -290,6 +299,7 @@ function scrap() {
             remove or edit any such Contributions, we may also suspend or
             disable your account and report you to the authorities.
             <br></br>
+            <br/>
             <strong className="tw-text-[#845ec2]">
               Copyright infringement
             </strong>
